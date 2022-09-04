@@ -13,6 +13,6 @@ namespace APIwithControllers.Models
         //null!
         //By using the null-forgiving operator,
         //you inform the compiler that passing null is expected and shouldn't be warned about.
-        public DbSet<TodoItem> To { get; set; } = null!;
+        public DbSet<TodoItem> TodoItems { get; set; } = null!;
     }
 }
