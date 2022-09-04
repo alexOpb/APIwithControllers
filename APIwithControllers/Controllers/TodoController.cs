@@ -22,7 +22,7 @@ namespace APIwithControllers.Controllers
 
         // GET: api/Todo
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTo()
+        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodo()
         {
           if (_context.TodoItems == null)
           {
